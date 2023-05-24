@@ -11,9 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MEMOJI"
         tools:targetApi="31">
-        <activity android:name=".MemoActivity"/>
-        <activity android:name=".WriteActivity"/>
-        <activity android:name=".PostActivity"/>
+        <activity android:name=".MemoActivity"
+            android:exported="true"/>
+        <activity android:name=".WriteActivity"
+            android:exported="true"/>
+        <activity android:name=".PostActivity"
+            android:exported="true"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
